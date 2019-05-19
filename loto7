@@ -1,0 +1,13 @@
+import random
+
+list = []
+
+for x in range(7):
+  list.append(random.randint(1,37))
+
+#リストを昇順に並び替え
+list.sort()
+print(list)
+
+#現状だと、番号に重複があった場合そのまま出力されます。
+#今後重複をチェックする機能を実装します。
